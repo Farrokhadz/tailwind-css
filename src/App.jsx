@@ -1,18 +1,9 @@
 import "./App.css";
-import { CiHeart } from "react-icons/ci";
+import LikeButton from "./LikeButton.jsx";
 function App() {
   return (
     <>
-      <div>
-        <CiHeart className="text-3xl"></CiHeart>
-        <button
-          onClick={() => {}}
-          className="inline-block bg-fuchsia-700 px-7 py-3 rounded-full hover:bg-fuchsia-600"
-        >
-          {" "}
-          My Button
-        </button>
-      </div>
+      <LikeButton></LikeButton>
     </>
   );
 }
