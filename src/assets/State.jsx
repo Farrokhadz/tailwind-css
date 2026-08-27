@@ -26,9 +26,7 @@ function State() {
   return (
     <>
       <p>{displayText}</p>
-      {text.length > maxLength && (
-        <button onClick={toggleExpand}>{isExpanded ? "less" : "more"}</button>
-      )}
+      <button onClick={toggleExpand}>{isExpanded ? "less" : "more"}</button>
     </>
   );
 }
